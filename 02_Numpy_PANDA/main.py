@@ -14,3 +14,7 @@ c = np.ones((2, 3, 4), dtype=np.int16)
 print(c)
 
 np.savez( 'array.npz', a, b,c)
+
+
+import pandas as pd
+print(pd.__version__)

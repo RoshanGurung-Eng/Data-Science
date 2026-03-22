@@ -18,3 +18,6 @@ np.savez( 'array.npz', a, b,c)
 
 import pandas as pd
 print(pd.__version__)
+
+d = pd.Series([1,2,3,4,5])
+print(d)

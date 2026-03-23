@@ -21,3 +21,17 @@ print(pd.__version__)
 
 d = pd.Series([1,2,3,4,5])
 print(d)
+
+# Pandas Placeholders
+
+df_empty = pd.DataFrame()
+print("\nEmpty DataFrame:")
+print(df_empty)
+
+df_zeros = pd.DataFrame(np.zeros((3, 3)), columns=['A', 'B', 'C'])
+print("\nDataFrame of Zeros:")
+print(df_zeros)
+
+df_ones = pd.DataFrame(np.ones((2, 4)), columns=['W', 'X', 'Y', 'Z'])
+print("\nDataFrame of Ones:")
+print(df_ones)

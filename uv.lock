@@ -13,6 +13,7 @@ resolution-markers = [
 [manifest]
 members = [
     "02-numpy-panda",
+    "03-titanic-datasets",
     "data-science",
 ]
 
@@ -30,6 +31,17 @@ requires-dist = [
     { name = "numpy", specifier = ">=2.4.3" },
     { name = "pandas", specifier = ">=3.0.1" },
 ]
+
+[[package]]
+name = "03-titanic-datasets"
+version = "0.1.0"
+source = { virtual = "03_Titanic_Datasets" }
+dependencies = [
+    { name = "pandas" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "pandas", specifier = ">=3.0.1" }]
 
 [[package]]
 name = "data-science"

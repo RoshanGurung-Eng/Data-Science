@@ -9,4 +9,5 @@ dependencies = []
 [tool.uv.workspace]
 members = [
     "02_Numpy_PANDA",
+    "03_Titanic_Datasets",
 ]

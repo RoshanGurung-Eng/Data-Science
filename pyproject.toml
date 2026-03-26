@@ -11,4 +11,5 @@ members = [
     "02_Numpy_PANDA",
     "03_Titanic_Datasets",
     "04_Jupyter_Notebook",
+    "05_Outliers",
 ]

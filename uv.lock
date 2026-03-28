@@ -16,6 +16,7 @@ members = [
     "03-titanic-datasets",
     "04-jupyter-notebook",
     "05-outliers",
+    "06-scaling",
     "data-science",
 ]
 
@@ -69,6 +70,23 @@ dependencies = [
 requires-dist = [
     { name = "scikit-learn", specifier = ">=1.8.0" },
     { name = "seaborn", specifier = ">=0.13.2" },
+]
+
+[[package]]
+name = "06-scaling"
+version = "0.1.0"
+source = { virtual = "06_Scaling" }
+dependencies = [
+    { name = "pandas" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "pandas", specifier = ">=3.0.1" },
+    { name = "scikit-learn", specifier = ">=1.8.0" },
+    { name = "scipy", specifier = ">=1.17.1" },
 ]
 
 [[package]]

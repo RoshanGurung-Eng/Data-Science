@@ -95,13 +95,19 @@ name = "07-correlation"
 version = "0.1.0"
 source = { virtual = "07_Correlation" }
 dependencies = [
+    { name = "numpy" },
     { name = "pandas" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
     { name = "seaborn" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "numpy", specifier = ">=2.4.3" },
     { name = "pandas", specifier = ">=3.0.1" },
+    { name = "scikit-learn", specifier = ">=1.8.0" },
+    { name = "scipy", specifier = ">=1.17.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
 ]
 
@@ -254,6 +260,16 @@ wheels = [
 name = "data-science"
 version = "0.1.0"
 source = { virtual = "." }
+dependencies = [
+    { name = "numpy" },
+    { name = "scikit-learn" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "numpy", specifier = ">=2.4.3" },
+    { name = "scikit-learn", specifier = ">=1.8.0" },
+]
 
 [[package]]
 name = "debugpy"

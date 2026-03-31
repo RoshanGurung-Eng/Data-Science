@@ -17,6 +17,7 @@ members = [
     "04-jupyter-notebook",
     "05-outliers",
     "06-scaling",
+    "07-correlation",
     "data-science",
 ]
 
@@ -87,6 +88,21 @@ requires-dist = [
     { name = "pandas", specifier = ">=3.0.1" },
     { name = "scikit-learn", specifier = ">=1.8.0" },
     { name = "scipy", specifier = ">=1.17.1" },
+]
+
+[[package]]
+name = "07-correlation"
+version = "0.1.0"
+source = { virtual = "07_Correlation" }
+dependencies = [
+    { name = "pandas" },
+    { name = "seaborn" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "pandas", specifier = ">=3.0.1" },
+    { name = "seaborn", specifier = ">=0.13.2" },
 ]
 
 [[package]]

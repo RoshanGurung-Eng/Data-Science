@@ -13,4 +13,5 @@ members = [
     "04_Jupyter_Notebook",
     "05_Outliers",
     "06_Scaling",
+    "07_Correlation",
 ]

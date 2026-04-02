@@ -19,6 +19,7 @@ members = [
     "06-scaling",
     "07-correlation",
     "08-fastapi-streamlit",
+    "09-regression",
     "data-science",
 ]
 
@@ -128,6 +129,17 @@ requires-dist = [
     { name = "requests", specifier = ">=2.33.1" },
     { name = "streamlit", specifier = ">=1.56.0" },
 ]
+
+[[package]]
+name = "09-regression"
+version = "0.1.0"
+source = { virtual = "09_Regression" }
+dependencies = [
+    { name = "scikit-learn" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "scikit-learn", specifier = ">=1.8.0" }]
 
 [[package]]
 name = "altair"

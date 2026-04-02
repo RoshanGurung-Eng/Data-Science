@@ -19,4 +19,5 @@ members = [
     "06_Scaling",
     "07_Correlation",
     "08_Fastapi_Streamlit",
+    "09_Regression",
 ]

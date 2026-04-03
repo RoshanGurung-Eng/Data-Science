@@ -20,4 +20,5 @@ members = [
     "07_Correlation",
     "08_Fastapi_Streamlit",
     "09_Regression",
+    "10_MUltiple _PolynomialRegression",
 ]

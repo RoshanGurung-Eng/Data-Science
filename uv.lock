@@ -21,6 +21,7 @@ members = [
     "08-fastapi-streamlit",
     "09-regression",
     "10-multiple-polynomialregression",
+    "11-classification",
     "data-science",
 ]
 
@@ -156,6 +157,27 @@ dependencies = [
 requires-dist = [
     { name = "pandas", specifier = ">=3.0.1" },
     { name = "scikit-learn", specifier = ">=1.8.0" },
+    { name = "seaborn", specifier = ">=0.13.2" },
+]
+
+[[package]]
+name = "11-classification"
+version = "0.1.0"
+source = { virtual = "11_Classification" }
+dependencies = [
+    { name = "ipykernel" },
+    { name = "pandas" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
+    { name = "seaborn" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "ipykernel", specifier = ">=7.2.0" },
+    { name = "pandas", specifier = ">=3.0.1" },
+    { name = "scikit-learn", specifier = ">=1.8.0" },
+    { name = "scipy", specifier = ">=1.17.1" },
     { name = "seaborn", specifier = ">=0.13.2" },
 ]
 

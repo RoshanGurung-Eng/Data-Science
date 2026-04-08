@@ -1,11 +1,11 @@
 [project]
-name = "06-scaling"
+name = "08-fastapi-streamlit"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "pandas>=3.0.1",
-    "scikit-learn>=1.8.0",
-    "scipy>=1.17.1",
+    "fastapi[standard]>=0.135.2",
+    "requests>=2.33.1",
+    "streamlit>=1.56.0",
 ]

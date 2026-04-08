@@ -1,5 +1,5 @@
 def main():
-    print("Hello from data-science!")
+    print("Hello from 04-jupyter-notebook!")
 
 
 if __name__ == "__main__":

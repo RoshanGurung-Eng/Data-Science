@@ -1,5 +1,5 @@
 def main():
-    print("Hello from data-science!")
+    print("Hello from 11-classification!")
 
 
 if __name__ == "__main__":

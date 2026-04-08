@@ -5,22 +5,21 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
-    "ipykernel>=7.2.0",
-    "requests>=2.32.5",
-    "scipy>=1.17.1",
+    "numpy>=2.4.3",
+    "requests>=2.33.1",
+    "scikit-learn>=1.8.0",
 ]
 
 [tool.uv.workspace]
 members = [
-    "02_Numpy_Pandas",
-    "03_Titani_Dataset_Operation",
-    "04_Jupyter",
+    "02_Numpy_PANDA",
+    "03_Titanic_Datasets",
+    "04_Jupyter_Notebook",
     "05_Outliers",
     "06_Scaling",
     "07_Correlation",
-    "08_fastapi_steamlit",
-    "09_Linear_Regression",
-    "10_multiple_polynomial_Regression",
+    "08_Fastapi_Streamlit",
+    "09_Regression",
+    "10_MUltiple _PolynomialRegression",
     "11_Classification",
-    "12_ConfusionMatrix_HeatMap",
 ]

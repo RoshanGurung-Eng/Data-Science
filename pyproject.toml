@@ -23,4 +23,5 @@ members = [
     "10_MUltiple _PolynomialRegression",
     "11_Classification",
     "13_Unsupervised_Learning",
+    "14_RandC_using Neural",
 ]
